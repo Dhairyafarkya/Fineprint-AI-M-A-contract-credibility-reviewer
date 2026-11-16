@@ -79,27 +79,6 @@ project, runs the setup, benchmarks, and prints a public link to the app.
 | `OLLAMA_MAX_LOADED_MODELS=2`, `OLLAMA_KEEP_ALIVE=30m` | | Chat and embedding models stay loaded between steps |
 | Thinking | off (`think: false`) | Much faster; prompts are explicit enough for extraction and review |
 
-### How the engine adapts to a 16k window
-
-Gemini can read a whole 50,000-word agreement at once; a local model cannot. With Ollama the engine budgets every
-prompt (about 6,300 words of excerpts per request) and leans on retrieval:
-
-- **Executive summary**: the cover page plus the best passages for nine summary topics, instead of the full text.
-- **Deal-term extraction**: the most relevant passages for 16 deal-term queries, round-robin, within the budget.
-- **Risk review**: passages behind each pattern-check hit first, then retrieved passages, within the budget.
-- **Recommendations**: a compact version of the flags and figures.
-- Each prompt is checked against the window before sending; whole excerpts are dropped from the end if needed,
-  so Ollama never silently truncates the start of a prompt.
-
-Structured output uses Ollama's `format` (JSON-schema constrained decoding in llama.cpp); the schema is also written
-into the prompt so the model can read the field descriptions. Every schema has been checked against llama.cpp's
-JSON-schema-to-grammar converter.
-
-A full review makes about 13 model calls. Expect roughly 8-15 minutes for a long agreement with `qwen3:14b` on a T4
-(about half that with `qwen3:8b`); `scripts/benchmark_ollama.py --full` measures it on your machine.
-
-**Troubleshooting:** out-of-memory errors: set `OLLAMA_CONTEXT = 12288` or `OLLAMA_MODEL = "qwen3:8b"`. "Model not
-installed": `ollama pull <name>`. Anything less than 100% on GPU in the benchmark means CPU offload; use the same fixes.
 
 ## Where the AI model is used and where it isn't
 
@@ -257,7 +236,6 @@ Ratings: **A** >= 80 · **B** 65-79 · **C** 50-64 · **D** < 50. Weights are in
 ## Limitations
 
 - Input is plain text. Convert PDFs/Word first (keep the text layer; tables may need checking).
-- The analysis takes the **acquirer's** perspective throughout.
 - The simulator is a planning model (no working capital, D&A or detailed tax). It is meant to compare
   scenarios and size protections, not to replace a full merger model.
 - Decision support only, not legal or investment advice. Always verify flags against the source clauses
