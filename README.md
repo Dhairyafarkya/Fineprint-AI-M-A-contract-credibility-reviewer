@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📑 Fine Print
+#  FinePrint M&A
 
 ### AI-powered M&A agreement review and deal simulation
 
@@ -22,19 +22,19 @@
 
 ---
 
-## ✨ What is this?
+##  What is this?
 
 Fine Print reads M&A agreements (merger agreements, letters of intent, SEC filings saved as `.txt`) and, in a web app that opens in your browser, it:
 
 | | What you get |
 |---|---|
-| 🔍 **Flags risky fine print** | 25 rule-based clause checks plus an AI review across 10 risk categories |
-| 📄 **Summarises the deal** | A plain-English executive summary of the agreement |
-| 💰 **Extracts the numbers** | Price, debt, fees, escrow and other deal terms, each with a quote from the text |
-| 📈 **Simulates cash flow** | 36 months, 5 stress scenarios and a 2,000-run Monte Carlo |
-| 🎯 **Scores the deal** | A transparent 100-point scorecard (A to D) that shows the reason for every deduction |
-| 🛡️ **Suggests countermeasures** | Renegotiation points, escrow sizing, price headroom, walk-away triggers |
-| 💬 **Answers questions** | "Ask the agreement" replies only from the text, with citations |
+|  **Flags risky fine print** | 25 rule-based clause checks plus an AI review across 10 risk categories |
+|  **Summarises the deal** | A plain-English executive summary of the agreement |
+|  **Extracts the numbers** | Price, debt, fees, escrow and other deal terms, each with a quote from the text |
+|  **Simulates cash flow** | 36 months, 5 stress scenarios and a 2,000-run Monte Carlo |
+|  **Scores the deal** | A transparent 100-point scorecard (A to D) that shows the reason for every deduction |
+|  **Suggests countermeasures** | Renegotiation points, escrow sizing, price headroom, walk-away triggers |
+|  **Answers questions** | "Ask the agreement" replies only from the text, with citations |
 
 > **The AI reads and judges. Plain Python does the money.** Every number in the simulation and the scorecard comes from a formula, not from an AI guess.
 
@@ -43,44 +43,44 @@ Fine Print reads M&A agreements (merger agreements, letters of intent, SEC filin
 
 ---
 
-## 🔑 Important: no API key is included
+##  Important: no API key is included
 
 > [!IMPORTANT]
 > **This project does not come with an API key, and you do not need one to use it.** You choose how the AI runs:
 >
 > | Choice | Needs an API key? | Needs a strong GPU? | Your documents |
 > |---|:---:|:---:|---|
-> | 🦙 **Ollama** (local, open models) | **No** | **Yes** (16 GB GPU recommended) | Stay on the machine running Ollama |
-> | ✨ **Google Gemini** (cloud) | **Yes, your own** (free to create) | No | Sent to Google's API |
+> |  **Ollama** (local, open models) | **No** | **Yes** (16 GB GPU recommended) | Stay on the machine running Ollama |
+> |  **Google Gemini** (cloud) | **Yes, your own** (free to create) | No | Sent to Google's API |
 >
 > If you pick Gemini, you create **your own** key (instructions in [Getting a Gemini API key](#-getting-a-gemini-api-key-only-if-you-choose-gemini)). Never paste your key into a public place, and never upload it to GitHub.
 
 ---
 
-## 🧭 Which option is right for me?
+##  Which option is right for me?
 
 ```mermaid
 flowchart TD
     A([I want to try Fine Print]) --> B{Do you have a<br/>computer with a 16 GB<br/>NVIDIA graphics card?}
-    B -- Yes --> C[💻 Option 3A<br/>Run locally with Ollama]
+    B -- Yes --> C[ Option 3A<br/>Run locally with Ollama]
     B -- No --> D{Do you want to avoid<br/>installing anything?}
     D -- Yes --> E[☁️ Option 1 or 2<br/>Colab or Kaggle<br/>free GPU, no key]
     D -- No --> F{Are you happy to create<br/>a free Gemini key?}
-    F -- Yes --> G[💻 Option 3B<br/>Run locally with Gemini]
+    F -- Yes --> G[ Option 3B<br/>Run locally with Gemini]
     F -- No --> H[👀 Offline preview<br/>no AI, just look around]
 ```
 
 | | Option | AI | Setup time | Best for |
 |---|---|---|---|---|
-| ☁️ | [**1. Google Colab**](#-option-1-google-colab-easiest-no-install) | Ollama on a free T4 GPU | ~10 min | **Beginners.** Nothing to install |
-| 🏆 | [**2. Kaggle**](#-option-2-kaggle) | Ollama on a free T4 GPU | ~10 min | Same, with a weekly GPU quota |
-| 💻 | [**3A. Your computer + Ollama**](#3a-local-ai-with-ollama-no-key-needs-a-good-gpu) | Local open models | ~20 min | Privacy, working offline |
-| 💻 | [**3B. Your computer + Gemini**](#3b-cloud-ai-with-gemini-any-laptop-needs-your-own-key) | Google Gemini | ~10 min | Ordinary laptops with no GPU |
-| 👀 | [**Offline preview**](#-offline-preview-no-ai-at-all) | None | ~10 min | A look at the app, nothing more |
+|  | [**1. Google Colab**](#-option-1-google-colab-easiest-no-install) | Ollama on a free T4 GPU | ~10 min | **Beginners.** Nothing to install |
+|  | [**2. Kaggle**](#-option-2-kaggle) | Ollama on a free T4 GPU | ~10 min | Same, with a weekly GPU quota |
+|  | [**3A. Your computer + Ollama**](#3a-local-ai-with-ollama-no-key-needs-a-good-gpu) | Local open models | ~20 min | Privacy, working offline |
+|  | [**3B. Your computer + Gemini**](#3b-cloud-ai-with-gemini-any-laptop-needs-your-own-key) | Google Gemini | ~10 min | Ordinary laptops with no GPU |
+|  | [**Offline preview**](#-offline-preview-no-ai-at-all) | None | ~10 min | A look at the app, nothing more |
 
 ---
 
-## 🧰 Before you start: a few basics
+##  Before you start: a few basics
 
 <details>
 <summary><b>What is a "terminal" and where do I find it?</b></summary>
@@ -119,7 +119,7 @@ cd YOUR_REPO
 
 ---
 
-## ☁️ Option 1: Google Colab (easiest, no install)
+## Option 1: Google Colab (easiest, no install)
 
 Colab is a free Google service that runs code on a Google computer, including a free **NVIDIA T4 GPU**, which is the exact graphics card this project is tuned for. You need a Google account. Nothing is installed on your own computer.
 
@@ -182,7 +182,7 @@ else:
 <summary><b>Prefer Gemini on Colab (no GPU needed)?</b></summary>
 
 1. Create your own key: see [Getting a Gemini API key](#-getting-a-gemini-api-key-only-if-you-choose-gemini).
-2. In Colab click the 🔑 **Secrets** icon in the left bar → **Add new secret** → name it `GEMINI_API_KEY`, paste your key as the value, and switch on **Notebook access**.
+2. In Colab click the  **Secrets** icon in the left bar → **Add new secret** → name it `GEMINI_API_KEY`, paste your key as the value, and switch on **Notebook access**.
 3. Run this instead of Cells 3 and 4 (Cells 1 and 2 first):
 
 ```python
@@ -207,7 +207,7 @@ The repo ships `notebooks/run_on_colab_t4.ipynb`, which does the same steps but 
 
 ---
 
-## 🏆 Option 2: Kaggle
+##  Option 2: Kaggle
 
 Kaggle also offers free GPUs (two T4s, with a weekly quota). The app uses one of them. The steps are the same as Colab, with a few Kaggle settings first.
 
@@ -294,19 +294,19 @@ os.environ["GEMINI_API_KEY"] = UserSecretsClient().get_secret("GEMINI_API_KEY")
 
 ---
 
-## 💻 Option 3: Run on your own computer
+##  Option 3: Run on your own computer
 
-### 🧱 Hardware requirements
+###  Hardware requirements
 
 Pick your row. The AI model is what needs the hardware, so the table depends on which AI you choose.
 
 | Setup | GPU (graphics card) | RAM | Free disk | Model used | Experience |
 |---|---|---|---|---|---|
-| 🏆 **Recommended** (local, Ollama) | **NVIDIA with 16 GB of video memory**, e.g. Tesla T4, RTX 4060 Ti 16 GB, RTX 4080, RTX 3090/4090 (24 GB) | 16 GB | **~15 GB** | `qwen3:14b` | Best quality. A long agreement reviews in about 8–15 min on a T4 |
-| ⚡ **Lighter** (local, Ollama) | NVIDIA with 8–12 GB of video memory (e.g. RTX 3060, 4070) | 16 GB | **~10 GB** | `qwen3:8b` | About twice as fast, slightly weaker on long clauses |
-| 🍎 **Apple Silicon Mac** (local, Ollama) | Built in (M1, M2, M3, M4) | 16 GB for `qwen3:8b`; 32 GB or more for `qwen3:14b` | **~10–15 GB** | `qwen3:8b` or `qwen3:14b` | Uses shared "unified" memory |
-| 🪶 **Any laptop** (cloud, Gemini) | None needed | 8 GB | **~3 GB** (Python packages only) | Gemini | Fast. Needs internet and your own key |
-| 🐌 **No GPU, local AI** | None | 16 GB or more | ~10 GB | `qwen3:8b` | **Not recommended.** It runs on the CPU and is extremely slow. Use Gemini, Colab or Kaggle instead |
+|  **Recommended** (local, Ollama) | **NVIDIA with 16 GB of video memory**, e.g. Tesla T4, RTX 4060 Ti 16 GB, RTX 4080, RTX 3090/4090 (24 GB) | 16 GB | **~15 GB** | `qwen3:14b` | Best quality. A long agreement reviews in about 8–15 min on a T4 |
+|  **Lighter** (local, Ollama) | NVIDIA with 8–12 GB of video memory (e.g. RTX 3060, 4070) | 16 GB | **~10 GB** | `qwen3:8b` | About twice as fast, slightly weaker on long clauses |
+|  **Apple Silicon Mac** (local, Ollama) | Built in (M1, M2, M3, M4) | 16 GB for `qwen3:8b`; 32 GB or more for `qwen3:14b` | **~10–15 GB** | `qwen3:8b` or `qwen3:14b` | Uses shared "unified" memory |
+|  **Any laptop** (cloud, Gemini) | None needed | 8 GB | **~3 GB** (Python packages only) | Gemini | Fast. Needs internet and your own key |
+|  **No GPU, local AI** | None | 16 GB or more | ~10 GB | `qwen3:8b` | **Not recommended.** It runs on the CPU and is extremely slow. Use Gemini, Colab or Kaggle instead |
 
 Also needed on every setup:
 
@@ -382,7 +382,7 @@ Now choose how the AI will run: **3A (Ollama, no key)** or **3B (Gemini, your ow
 
 <table>
 <tr>
-<td><b>🪟 Windows</b></td>
+<td><b> Windows</b></td>
 <td>
 
 1. Go to **[ollama.com/download](https://ollama.com/download)** and click **Download for Windows**.
@@ -392,7 +392,7 @@ Now choose how the AI will run: **3A (Ollama, no key)** or **3B (Gemini, your ow
 </td>
 </tr>
 <tr>
-<td><b>🍎 macOS</b></td>
+<td><b>macOS</b></td>
 <td>
 
 1. Go to **[ollama.com/download](https://ollama.com/download)** and click **Download for macOS**.
@@ -402,7 +402,7 @@ Now choose how the AI will run: **3A (Ollama, no key)** or **3B (Gemini, your ow
 </td>
 </tr>
 <tr>
-<td><b>🐧 Linux</b></td>
+<td><b> Linux</b></td>
 <td>
 
 Run this in a terminal (it also sets Ollama up as a background service):
@@ -511,7 +511,7 @@ You don't need a GPU or Ollama for this route. Instead you need an internet conn
 > [!IMPORTANT]
 > **No API key is provided with this project.** Create your own, free, in a couple of minutes. Without a key, Gemini mode shows the [offline preview](#-offline-preview-no-ai-at-all) with placeholder AI text.
 
-#### 🔐 Getting a Gemini API key (only if you choose Gemini)
+#### Getting a Gemini API key (only if you choose Gemini)
 
 1. Go to **[aistudio.google.com/apikey](https://aistudio.google.com/apikey)** and sign in with a Google account.
 2. Click **Create API key** and copy it. It starts with `AIza`.
@@ -554,7 +554,7 @@ Your browser opens at **<http://localhost:8501>**.
 
 ---
 
-### 👀 Offline preview (no AI at all)
+###  Offline preview (no AI at all)
 
 Just want to look around? This runs the app with a stand-in for the AI. Chunking, search, rule checks, the cash-flow simulation, the scorecard and the charts are all real. The summary, the AI risk review and the recommendations show placeholder text.
 
@@ -565,21 +565,21 @@ Just want to look around? This runs the app with a stand-in for the AI. Chunking
 
 ---
 
-## ✅ How do I know it's working?
+##  How do I know it's working?
 
 Open <http://localhost:8501> (or your Colab/Kaggle link). In the **top-right corner** you should see one of:
 
-- 🟢 **Running locally on Ollama (qwen3:14b)**
-- 🟢 **Connected to Gemini (model name)**
+-  **Running locally on Ollama (qwen3:14b)**
+-  **Connected to Gemini (model name)**
 
 If something is wrong (Ollama isn't running, a model is missing, the key is rejected or has missing quotes), the start screen says exactly what, and you can fix it and reload the page.
 
-## 🚀 Using the app
+##  Using the app
 
 1. **Pick an agreement** on the start screen:
-   - 📚 **Bundled samples:** a real Cisco/Acacia agreement, and a fictional one with deliberately planted risky clauses. Start here.
-   - 🗂️ **Library:** drop `.txt` files into the `data/raw/` folder and they appear automatically.
-   - ⬆️ **Upload:** one or many `.txt` files, a `.zip` of them, or a whole folder.
+   -  **Bundled samples:** a real Cisco/Acacia agreement, and a fictional one with deliberately planted risky clauses. Start here.
+   -  **Library:** drop `.txt` files into the `data/raw/` folder and they appear automatically.
+   -  **Upload:** one or many `.txt` files, a `.zip` of them, or a whole folder.
 2. **Wait for the review.** It makes about 13 AI calls. With `qwen3:14b` on a T4, a long agreement takes about 8–15 minutes (about half that with `qwen3:8b`). Gemini is usually faster.
 3. **Explore the tabs:** Document & RAG · Summary · Cash flow · Score · Growth · Risks · Mitigation · Ask.
 4. **Change the assumptions.** The agreement rarely contains the buyer's own financials, so some inputs start as illustrative estimates, marked with `*`. Enter real figures on the **Cash flow** tab and press **Update simulation**. This re-runs the simulation and scorecard without calling the AI again.
@@ -588,7 +588,7 @@ If something is wrong (Ollama isn't running, a model is missing, the key is reje
 > [!NOTE]
 > Input must be **plain text (`.txt`)**. Convert PDFs and Word files to text first. Agreements split into numbered, overlapping pieces (`contract_0.txt_1.txt`, `contract_0.txt_2.txt`, …) are stitched back together automatically.
 
-## 🔄 Stopping and starting again
+##  Stopping and starting again
 
 - **Stop the app:** click the terminal it's running in and press `Ctrl + C`.
 - **Start it again later:** open a terminal in the project folder, switch the environment on (`source .venv/bin/activate` or `.venv\Scripts\Activate.ps1`), make sure Ollama is running (if you use it), then `streamlit run app.py`. You don't need to install anything again.
@@ -596,7 +596,7 @@ If something is wrong (Ollama isn't running, a model is missing, the key is reje
 
 ---
 
-## 🛠️ Configuration cheat sheet
+##  Configuration cheat sheet
 
 Everything you normally change is in **`utils.py`**:
 
@@ -615,7 +615,7 @@ Advanced options (chunk size, parallel calls, caching…) live in an optional `.
 
 ---
 
-## 🩺 Troubleshooting
+##  Troubleshooting
 
 | Problem | What to do |
 |---|---|
@@ -638,7 +638,7 @@ Still stuck? Open an issue on this repository and include the text of the error 
 
 ---
 
-## 🧪 For developers
+##  For developers
 
 ```bash
 pytest -q                                   # offline tests, no key or GPU needed
@@ -648,7 +648,7 @@ python scripts/benchmark_ollama.py --full   # times a complete review on your GP
 ```
 
 <details>
-<summary><b>📂 Project layout</b></summary>
+<summary><b>Project layout</b></summary>
 
 ```
 app.py                  Streamlit entry point
@@ -674,7 +674,7 @@ tests/                  Offline test suite
 </details>
 
 <details>
-<summary><b>🧠 Where the AI is used, and where it isn't</b></summary>
+<summary><b> Where the AI is used, and where it isn't</b></summary>
 
 | Step | Uses the AI? | How |
 |---|---|---|
