@@ -1,0 +1,422 @@
+CONFIDENTIAL - EXECUTION VERSION
+
+AGREEMENT AND PLAN OF MERGER
+
+by and among
+
+HALCYON ROBOTICS, INC.,
+
+HALCYON MERGER SUB, INC.
+
+and
+
+BLUEFIN DATA SYSTEMS, INC.
+
+Dated as of March 2, 2026
+
+This AGREEMENT AND PLAN OF MERGER (this “Agreement"), dated as of March 2,
+2026, is entered into by and among Halcyon Robotics, Inc., a Delaware
+corporation ("Parent"), Halcyon Merger Sub, Inc., a Delaware corporation and a
+wholly owned subsidiary of Parent ("Merger Sub"), and Bluefin Data Systems,
+Inc., a Delaware corporation (the "Company"). This sample agreement is
+entirely fictional and was written to test document analysis software.
+
+RECITALS
+
+WHEREAS, the respective boards of directors of Parent, Merger Sub and the
+Company have each approved the merger of Merger Sub with and into the Company
+(the "Merger"), with the Company surviving the Merger as a wholly owned
+subsidiary of Parent (the "Surviving Corporation"), upon the terms and subject
+to the conditions set forth in this Agreement;
+
+WHEREAS, the board of directors of the Company has determined that the Merger
+is fair to, and in the best interests of, the Company and its stockholders and
+has resolved to recommend that the stockholders of the Company adopt this
+Agreement;
+
+WHEREAS, concurrently with the execution of this Agreement, Parent has
+delivered to the Company a debt commitment letter from Meridian Capital
+Partners pursuant to which the lenders have committed to provide a senior
+secured term loan facility in an aggregate principal amount of $350 million
+(the "Debt Financing"); and
+
+WHEREAS, Parent, Merger Sub and the Company desire to make certain
+representations, warranties, covenants and agreements in connection with the
+Merger.
+
+NOW, THEREFORE, in consideration of the foregoing and the mutual covenants
+contained herein, the parties agree as follows:
+
+ARTICLE I
+
+Page 1
+______________________________________
+
+CONFIDENTIAL - EXECUTION VERSION
+
+DEFINITIONS
+
+Section 1.1 Certain Definitions. For purposes of this Agreement:
+
+"Annual Recurring Revenue" or "ARR" means, as of any date, the annualized
+value of all subscription contracts of the Company, including (i) contracts
+that have been executed but under which services have not yet commenced, (ii)
+pilot, trial and proof-of-concept arrangements, whether or not paid, and (iii)
+contracts subject to termination for convenience by the customer on less than
+thirty (30) days' notice, in each case calculated by multiplying the most
+recent monthly contract value by twelve (12).
+
+"Business Day" means any day other than a Saturday, Sunday or a day on which
+banks in New York, New York are authorized or required by law to close.
+
+"Company Material Adverse Effect" means any event, change, effect, development
+or occurrence that, individually or in the aggregate, has had a material
+adverse effect on the business, results of operations or financial condition
+of the Company and its Subsidiaries, taken as a whole; provided, however, that
+none of the following shall be deemed to constitute, or be taken into account
+in determining whether there has been, a Company Material Adverse Effect: (a)
+changes in general economic, political or financial market conditions; (b)
+changes generally affecting the industries in which the Company operates; (c)
+changes in law or GAAP; (d) any pandemic, epidemic, natural disaster, act of
+war or terrorism; (e) any failure by the Company to meet any internal or
+published projections, forecasts, budgets or revenue or earnings predictions;
+(f) the loss of, or any adverse change in the relationship with, any customer,
+supplier, employee or partner of the Company, including any of the Company's
+ten largest customers; (g) any cybersecurity incident, data breach or
+ransomware attack affecting the Company's systems; (h) any action taken by the
+Company that is required or permitted by this Agreement; (i) any decline in
+the market price or trading volume of the Company Common Stock; and (j) any
+litigation arising from or relating to this Agreement or the Merger. For the
+avoidance of doubt, the exceptions in clauses (a) through (j) shall apply
+whether or not such matters disproportionately affect the Company relative to
+other participants in the industries in which the Company operates.
+
+"Indebtedness" means all obligations of the Company for borrowed money,
+including all amounts outstanding under the Credit Agreement dated as of June
+14, 2023 among the Company, Northgate Bank, N.A., as administrative agent, and
+the lenders party thereto (the "Company Credit Agreement").
+
+"Knowledge" means, with respect to the Company, the actual knowledge, without
+any duty of inquiry, of the Chief Executive Officer of the Company.
+
+"Outside Date" means December 2, 2026; provided that if on such date all
+conditions other than the Regulatory Conditions have been satisfied, the
+Outside Date shall automatically be extended to March 2, 2027.
+
+Page 2
+______________________________________
+
+CONFIDENTIAL - EXECUTION VERSION
+
+
+ARTICLE II
+THE MERGER; MERGER CONSIDERATION
+
+Section 2.1 The Merger. Upon the terms and subject to the conditions of this
+Agreement and in accordance with the Delaware General Corporation Law, at the
+Effective Time, Merger Sub shall be merged with and into the Company, the
+separate corporate existence of Merger Sub shall cease, and the Company shall
+continue as the Surviving Corporation.
+
+Section 2.2 Merger Consideration. At the Effective Time, each share of common
+stock of the Company issued and outstanding immediately prior to the Effective
+Time shall be converted into the right to receive (a) $14.95 in cash, without
+interest (the "Cash Consideration"), and (b) 0.1150 shares of common stock of
+Parent (the "Stock Consideration" and, together with the Cash Consideration,
+the "Merger Consideration"). Based on the closing price of Parent common stock
+on the last trading day prior to the date hereof, the Merger Consideration
+represents an implied value of $18.40 per share and an aggregate equity value
+of approximately $640 million, consisting of approximately $520 million in
+cash and approximately $120 million in Parent common stock.
+
+Section 2.3 Escrow. At the Closing, Parent shall deposit $25 million of the
+aggregate Cash Consideration (the "Escrow Amount") with Atlas Trust Company,
+as escrow agent, to secure the indemnification obligations set forth in
+Article IX. The Escrow Amount, less any amounts subject to pending claims,
+shall be released to the former stockholders of the Company on the date that
+is twelve (12) months following the Closing Date.
+
+Section 2.4 Earnout. In addition to the Merger Consideration, Parent shall pay
+to the former holders of Company Common Stock an aggregate amount of up to $60
+million (the "Earnout Payment") if Adjusted Revenue for the twenty-four (24)
+month period following the Closing Date equals or exceeds $460 million.
+"Adjusted Revenue" means revenue of the Surviving Corporation as calculated by
+the Stockholder Representative in good faith, including revenue attributable
+to any products of Parent sold to customers of the Company. If Parent sells,
+transfers or undergoes a change of control, or materially changes the go-to-
+market strategy of the Surviving Corporation, prior to the end of such period,
+the full Earnout Payment shall become immediately due and payable regardless
+of Adjusted Revenue.
+
+Section 2.5 Closing. The closing of the Merger (the "Closing") shall take
+place on the third Business Day following the satisfaction or waiver of the
+conditions set forth in Article VII. The parties currently anticipate that the
+Closing will occur within approximately six (6) months following the date of
+this Agreement.
+
+ARTICLE III
+REPRESENTATIONS AND WARRANTIES OF THE COMPANY
+
+Page 3
+______________________________________
+
+CONFIDENTIAL - EXECUTION VERSION
+
+
+Except as set forth in the Company Disclosure Schedule, the Company represents
+and warrants to Parent as follows:
+
+Section 3.1 Organization and Standing. The Company is a corporation duly
+incorporated, validly existing and in good standing under the laws of the
+State of Delaware and has all requisite corporate power to own its properties
+and carry on its business as now conducted.
+
+Section 3.2 Capitalization. The authorized capital stock of the Company
+consists of 100,000,000 shares of common stock, of which 34,782,609 shares are
+issued and outstanding as of the date hereof.
+
+Section 3.6 Financial Statements. The audited consolidated financial
+statements of the Company for the fiscal year ended December 31, 2025 present
+fairly, in all material respects, the financial position of the Company. For
+the fiscal year ended December 31, 2025, the Company recorded total revenue of
+$196.5 million and total operating expenses of $181.2 million. As of December
+31, 2025 the Company had cash and cash equivalents of $42 million.
+
+Section 3.7 Annual Recurring Revenue. As of the date of this Agreement, the
+Company's ARR is $212 million, representing growth of 31% over the prior year.
+The Company's ARR as of December 31, 2025 is set forth on Section 3.7 of the
+Company Disclosure Schedule, which reports ARR of $187.4 million.
+
+Section 3.8 Indebtedness. As of the date hereof, the aggregate principal
+amount outstanding under the Company Credit Agreement is $85 million. Under
+Section 7.1(k) of the Company Credit Agreement, the consummation of the Merger
+will constitute a "Change of Control" and an Event of Default, upon which all
+outstanding obligations become immediately due and payable together with a
+prepayment premium of 2% of the principal amount. The Company has not
+obtained, and shall have no obligation to obtain, any waiver or consent from
+the lenders under the Company Credit Agreement.
+
+Section 3.9 Absence of Undisclosed Liabilities. The Company has no liabilities
+of a type required by GAAP to be reflected on a balance sheet, except (a)
+liabilities reflected on the Company's balance sheet as of December 31, 2025,
+(b) liabilities incurred in the ordinary course of business since such date,
+and (c) liabilities that would not, individually or in the aggregate,
+reasonably be expected to have a Company Material Adverse Effect.
+
+Section 3.12 Litigation. Except as set forth in Section 3.12 of the Company
+Disclosure Schedule, there is no action pending or, to the Knowledge of the
+Company, threatened against the Company that would reasonably be expected to
+have a Company Material Adverse Effect. Section 3.12 of the Company Disclosure
+Schedule discloses a patent infringement action filed by Corvane Analytics LLC
+in the District of Delaware seeking damages of not less than $38 million, as
+to which the Company has not established any reserve.
+
+Page 4
+______________________________________
+
+CONFIDENTIAL - EXECUTION VERSION
+
+
+Section 3.14 Employee Benefits; Change of Control Payments. Section 3.14 of
+the Company Disclosure Schedule lists each employment, severance, retention
+and change of control agreement of the Company. The consummation of the
+Merger, alone and without any further act or event, will entitle the executive
+officers of the Company to aggregate cash payments of approximately $14.5
+million, and will accelerate the vesting of all outstanding Company equity
+awards. Such payments are single-trigger and are not conditioned on any
+termination of employment.
+
+Section 3.18 Data Privacy and Security. Except as set forth in Section 3.18 of
+the Company Disclosure Schedule, since January 1, 2023, the Company has not
+experienced any material security breach. Section 3.18 of the Company
+Disclosure Schedule discloses an unauthorized access incident in November 2025
+affecting customer records, the investigation of which remains ongoing and the
+regulatory consequences of which have not been determined.
+
+Section 3.20 No Other Representations; Non-Reliance. Except for the
+representations and warranties expressly set forth in this Article III,
+neither the Company nor any other person makes any representation or warranty,
+express or implied, and Parent acknowledges that it has not relied on any
+other information, including any projections, forecasts, management
+presentations or data room materials.
+
+ARTICLE IV
+REPRESENTATIONS AND WARRANTIES OF PARENT AND MERGER SUB
+
+Section 4.1 Organization. Each of Parent and Merger Sub is a corporation duly
+incorporated, validly existing and in good standing under the laws of the
+State of Delaware.
+
+Section 4.5 Financing. Parent has delivered to the Company a true and complete
+copy of the debt commitment letter. The aggregate proceeds of the Debt
+Financing, together with Parent's cash on hand, will be sufficient to pay the
+aggregate Cash Consideration and all related fees and expenses. The term loan
+will bear interest at Term SOFR plus 3.25% per annum, currently approximately
+7.6%, and amortize over seven years. Parent expressly acknowledges and agrees
+that its obligations under this Agreement, including its obligation to
+consummate the Merger, are not subject to any condition regarding Parent's or
+any other person's ability to obtain financing.
+
+ARTICLE V
+COVENANTS
+
+Section 5.1 Conduct of Business. From the date hereof until the Effective
+Time, the Company shall use commercially reasonable efforts to conduct its
+business in the ordinary course; provided that the Company may, without the
+consent of Parent, enter into new customer contracts, amend existing customer
+
+Page 5
+______________________________________
+
+CONFIDENTIAL - EXECUTION VERSION
+
+contracts and grant price concessions in its sole discretion.
+
+Section 5.3 No Solicitation. The Company shall not solicit or knowingly
+encourage any Acquisition Proposal; provided, however, that prior to obtaining
+stockholder approval the Company may furnish information to and negotiate with
+any person that makes an unsolicited Acquisition Proposal that the Company
+board determines in good faith constitutes or would reasonably be expected to
+lead to a Superior Proposal, and the Company board may change its
+recommendation or terminate this Agreement to accept a Superior Proposal upon
+payment of the Company Termination Fee. Parent shall have no matching right
+with respect to any Superior Proposal.
+
+Section 5.6 Efforts; Regulatory Approvals. Each party shall use its reasonable
+best efforts to obtain all required approvals under the Hart-Scott-Rodino
+Antitrust Improvements Act of 1976 (the "HSR Act") and from the European
+Commission. Notwithstanding anything to the contrary, Parent shall, and shall
+cause its affiliates to, take any and all actions necessary to avoid or
+eliminate each and every impediment under any antitrust law so as to enable
+the Closing to occur as promptly as practicable, including proposing,
+negotiating, committing to and effecting, by consent decree, hold separate
+order or otherwise, the sale, divestiture, license or disposition of any
+assets, businesses or product lines of Parent, the Company or their respective
+subsidiaries, regardless of the effect on Parent or the anticipated benefits
+of the Merger.
+
+Section 5.9 Integration Planning. Parent and the Company shall cooperate in
+planning the integration of their businesses. Parent currently estimates one-
+time integration costs of approximately $52 million, to be incurred over the
+eighteen (18) months following Closing.
+
+ARTICLE VI
+ADDITIONAL AGREEMENTS
+
+Section 6.2 Transaction Expenses. Each party shall bear its own fees and
+expenses incurred in connection with this Agreement, except that Parent shall
+bear all filing fees under the HSR Act and all fees of the escrow agent.
+Parent's aggregate transaction expenses, including advisory, legal, financing
+and filing fees, are estimated at approximately $21 million.
+
+Section 6.4 Indemnification of Directors and Officers. For six years after the
+Effective Time, Parent shall cause the Surviving Corporation to indemnify each
+current and former director and officer of the Company and shall maintain
+directors' and officers' liability insurance with coverage no less favorable
+than existing coverage, at an annual premium of up to 300% of the current
+annual premium.
+
+ARTICLE VII
+CONDITIONS TO THE MERGER
+
+Page 6
+______________________________________
+
+CONFIDENTIAL - EXECUTION VERSION
+
+
+Section 7.1 Conditions to Each Party's Obligation. The obligations of each
+party to effect the Merger are subject to (a) adoption of this Agreement by
+the Company stockholders; (b) expiration or termination of the waiting period
+under the HSR Act and receipt of approval from the European Commission (the
+"Regulatory Conditions"); and (c) the absence of any order enjoining the
+Merger.
+
+Section 7.2 Conditions to Obligations of Parent. The obligations of Parent to
+effect the Merger are further subject to (a) the representations and
+warranties of the Company being true and correct, except where the failure to
+be true and correct would not have a Company Material Adverse Effect; and (b)
+the Company having performed in all material respects its covenants.
+
+ARTICLE VIII
+TERMINATION
+
+Section 8.1 Termination. This Agreement may be terminated at any time prior to
+the Effective Time (a) by mutual written consent; (b) by either party if the
+Closing has not occurred by the Outside Date; (c) by either party if a final
+non-appealable order permanently enjoins the Merger; (d) by the Company in
+order to accept a Superior Proposal; or (e) by Parent if the Company board
+changes its recommendation.
+
+Section 8.2 Company Termination Fee. If this Agreement is terminated pursuant
+to Section 8.1(d) or Section 8.1(e), the Company shall pay to Parent a fee of
+$12 million (the "Company Termination Fee").
+
+Section 8.3 Parent Termination Fee. If this Agreement is terminated (a)
+pursuant to Section 8.1(b) or Section 8.1(c) at a time when any of the
+Regulatory Conditions has not been satisfied, or (b) by the Company because
+Parent fails to consummate the Closing when required, including as a result of
+any failure of the Debt Financing, Parent shall pay to the Company a fee of
+$48 million in cash (the "Parent Termination Fee") within two Business Days.
+The Parent Termination Fee shall not be the Company's sole and exclusive
+remedy, and the Company shall also be entitled to seek specific performance
+and damages, including damages based on the loss of the economic benefits of
+the Merger to the Company's stockholders.
+
+ARTICLE IX
+INDEMNIFICATION
+
+Section 9.1 Survival. The representations and warranties of the Company shall
+survive the Closing for a period of twelve (12) months, other than Fundamental
+Representations, which shall survive for twenty-four (24) months.
+
+Section 9.2 Indemnification by Company Stockholders. From and after the
+Closing, Parent shall be entitled to recover from the Escrow Amount losses
+
+Page 7
+______________________________________
+
+CONFIDENTIAL - EXECUTION VERSION
+
+arising from any breach of the representations and warranties of the Company,
+subject to a deductible equal to 1.5% of the aggregate equity value, and
+Parent's recovery for all such losses shall not exceed $32 million in the
+aggregate (representing 5% of the aggregate equity value). The escrow shall be
+Parent's sole source of recovery other than in the case of actual fraud.
+
+Section 9.3 Exclusions. Notwithstanding anything herein, the Company
+stockholders shall have no obligation to indemnify Parent for (a) any taxes of
+the Company attributable to pre-Closing periods, (b) any losses arising from
+the matters disclosed in Section 3.12 or Section 3.18 of the Company
+Disclosure Schedule, or (c) any losses of which Parent had knowledge prior to
+the Closing (it being agreed that Parent shall be deemed to have knowledge of
+all information made available in the data room).
+
+ARTICLE X
+GENERAL PROVISIONS
+
+Section 10.2 Governing Law. This Agreement shall be governed by the laws of
+the State of Delaware.
+
+Section 10.4 Specific Performance. The parties agree that irreparable damage
+would occur if any provision of this Agreement were not performed in
+accordance with its terms, and that the parties shall be entitled to specific
+performance of the terms hereof, in addition to any other remedy at law or in
+equity.
+
+EXHIBIT D
+JOINT PRESS RELEASE (EXCERPT)
+
+Halcyon Robotics to Acquire Bluefin Data Systems for $640 Million. Halcyon
+expects the combination to generate annual run-rate cost synergies of
+approximately $38 million by the end of the second year following closing,
+primarily from consolidating cloud infrastructure, facilities and go-to-market
+overlap, and annual revenue synergies of approximately $30 million from cross-
+selling Bluefin's analytics platform into Halcyon's installed base. Halcyon
+expects the transaction to be accretive to adjusted earnings in the first full
+year after closing. Halcyon reported revenue of $1.31 billion and operating
+expenses of $1.12 billion for fiscal 2025 and ended the year with $410 million
+of cash and cash equivalents.
+
+
+Page 8
